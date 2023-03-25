@@ -1,0 +1,37 @@
+#laptop{
+    background: #f1f1f1;
+    margin: 50px 0;
+    .laptop-left{
+        img{
+            width: 100%;
+        }
+    }
+    .laptop-right{
+        h4{
+            font-size: 20px;
+            font-weight: 500;
+            font-family: "Raleway",sans-serif;
+            color: #222222;
+        }
+        h2{
+            font-size: 40px;
+            font-weight: 500;
+            font-family: "Raleway",sans-serif;
+            color: #df514f;
+        }
+        p{
+            font-size: 14px;
+            font-weight: 400;
+            font-family: "Open Sans",sans-serif;
+            color: #222222;
+            line-height: 25px;
+        }
+        h6{
+            font-size: 20px;
+            font-weight: 500;
+            font-family: "Raleway",sans-serif;
+            color: #222222;
+            text-transform: uppercase;
+        }
+    }
+}

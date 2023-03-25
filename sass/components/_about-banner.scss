@@ -1,0 +1,29 @@
+#about{
+    padding : 100px 0;
+    background  : linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../images/about-banner.jpg) no-repeat center / cover;
+    .about-banner-text{
+        h2{
+            color   : #fff;
+            font-weight : 500;
+            font-size   : 24px;
+            font-family : 'Raleway',sans-serif;
+            text-transform  : uppercase;
+        }
+        span{
+            i{
+                color   : #fff;
+                margin  : 0 10px;
+            }
+        }
+        a{
+            color   : #fff;
+            font-size   : 18px;
+            font-weight : 500;
+            font-family : 'Raleway',sans-serif;
+            &:hover{
+                color   : #d04342;
+            }
+        }
+    }
+
+}

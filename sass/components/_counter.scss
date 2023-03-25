@@ -1,0 +1,18 @@
+#counter-part{
+    padding: 50px 0;
+    background: linear-gradient(rgba(0,0,0,.9),rgba(0,0,0,0.9)),url(../images/counter.jpg) no-repeat center / cover;
+    .counter-main{
+        .counter{
+            color: #fff;
+            font-size: 40px;
+            font-weight: 500;
+            font-family: 'Raleway',sans-serif;
+        }
+        p{
+            color: #fff;
+            font-size: 16px;
+            font-weight: 400;
+            font-family: 'Raleway',sans-serif;
+        }
+    }
+}

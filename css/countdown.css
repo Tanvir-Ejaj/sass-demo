@@ -1,0 +1,32 @@
+/* body {
+    text-align: center;
+    padding: 70px 50px;
+    background: #0D1A29;
+    font-family: sans-serif;
+    font-weight: lighter;
+} */
+
+#timer {
+    font-size: 20px;
+    font-weight: 500;
+    color: #4f4f4f;
+    font-family: "Raleway",sans-serif;
+}
+
+#timer div {
+    display: inline-block;
+    width: 90px;
+    height: 70px;
+    border: 1px solid #4f4f4f;
+    margin-right: 20px;
+    text-align: center;
+}
+
+#timer div span {
+    color: #4f4f4f;
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-family: "Raleway",sans-serif;
+}

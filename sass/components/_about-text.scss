@@ -1,0 +1,29 @@
+#about-text{
+    position: relative;
+    margin: 50px 0;
+    .text-pic{
+        img{
+            width   : 100%;
+        }
+    }
+    .about-main{
+        padding: 40px 30px;
+        top: 50%;
+        left: 60%;
+        width: 550px;
+        position: absolute;
+        background: rgba(0, 0, 0, 0.8);
+        transform: translate(-50%,-50%);
+        -webkit-transform: translate(-50%,-50%);
+        -moz-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+        -o-transform: translate(-50%,-50%);
+        p{
+            color: #fff;
+            font-size: 14px;
+            font-weight: 400;
+            text-align: justify;
+            font-family: 'Open Sans',sans-serif;
+        }
+    }
+}

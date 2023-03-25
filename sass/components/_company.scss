@@ -1,0 +1,56 @@
+#company{
+    .company-inner{
+        margin: 0 20px;
+        border: 1px solid #000;
+        img{
+            width: 100%;
+        }
+    }
+}
+.slick-slide{
+    img{
+        display: inline-block;
+    }
+}
+.left-arrow-3 {
+    color: #000;
+    position: absolute;
+    left: -100px;
+    top: 50%;
+    height: 50px;
+    width: 50px;
+    border: 1px solid #000;
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    &:hover{
+        color: #000;
+        background-color: rgb(255, 0, 0);
+    }
+}
+.right-arrow-3 {
+    color: #000;
+    position: absolute;
+    right: -100px;
+    top: 50%;
+    height: 50px;
+    width: 50px;
+    border: 1px solid #000;
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    &:hover{
+        color: #000;
+        background-color: rgb(255, 0, 0);
+    }
+}

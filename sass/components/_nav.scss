@@ -1,0 +1,37 @@
+.main-nav{
+    padding: 25px 0;
+    ul{
+        li{
+            a{
+                color: #595959;
+                font-size: 16px;
+                font-weight: 500;
+                font-family: 'Raleway',sans-serif;
+                &:hover{
+                    color: #ff0400 !important;
+                }
+            }
+        }
+    }
+    button{
+        border: transparent;
+        background: transparent;
+    }
+    .cart{
+        margin: 0 20px;
+        a{
+            color: #c2514f;
+            font-size: 20px;
+            font-weight: 500;
+            font-family: 'Raleway',sans-serif;
+            span{
+                i{
+                    font-size: 18px;
+                }
+            }
+            &:hover{
+                color: #ff0400;
+            }
+        }
+    }
+}

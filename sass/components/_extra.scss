@@ -1,0 +1,98 @@
+#extra-nav{
+    background: #444444;
+    padding: 15px 0;
+    .extra-main{
+        display: flex;
+        justify-content: center;
+        .language{
+            text-align: center;
+            width: 20%;
+            margin-right: 10px;
+            .form-select{
+                color: #fff;
+                font-family: 'Open sans',sans-serif;
+                font-weight: 500;
+                background-color: #ff0400;
+                border: 0 !important;
+                border-radius: 0;
+                -webkit-border-radius: 0;
+                -moz-border-radius: 0;
+                -ms-border-radius: 0;
+                -o-border-radius: 0;
+            }
+        }
+        .dollar{
+            width: 20%;
+            .form-select{
+                color: #fff;
+                font-family: 'Open sans',sans-serif;
+                font-weight: 500;
+                background-color: #ff0400;
+                border: 0 !important;
+                border-radius: 0;
+                -webkit-border-radius: 0;
+                -moz-border-radius: 0;
+                -ms-border-radius: 0;
+                -o-border-radius: 0;
+            }
+        }
+        .extra-phone{
+            width: 50%;
+            text-align: center;
+            h6{
+                margin: 0;
+                line-height: 38px;
+                color: #fff;
+                font-family: 'Open sans',sans-serif;
+                font-size: 14px;
+                font-weight: 500;
+            }
+        }
+    }
+    .extra-nav-right{
+        line-height: 38px;
+        display: flex;
+        justify-content: center;
+        .wish{
+            width: 30%;
+            text-align: center;
+            a{
+                color: #fff;
+                font-family: 'Open sans',sans-serif;
+                font-weight: 500;
+                font-size: 16px;
+                &:hover{
+                    color: #ff0400;
+                }
+            }
+        }
+        .account{
+            width: 30%;
+            text-align: center;
+            border-left: 1px solid #fff;
+            border-right: 1px solid #fff;
+            a{
+                color: #fff;
+                font-family: 'Open sans',sans-serif;
+                font-weight: 500;
+                font-size: 16px;
+                &:hover{
+                    color: #ff0400;
+                }
+            }
+        }
+        .register{
+            width: 30%;
+            text-align: right;
+            a{
+                color: #fff;
+                font-family: 'Open sans',sans-serif;
+                font-weight: 500;
+                font-size: 16px;
+                &:hover{
+                    color: #ff0400;
+                }
+            }
+        }
+    }
+}
